@@ -28,7 +28,19 @@ public class User {
 		return address;
 	}
 	
-	public String getfone() {
+	public String getFone() {
 		return fone;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	public void setFone(String fone) {
+		this.fone = fone;
 	}
 }
