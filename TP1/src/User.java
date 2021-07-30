@@ -32,6 +32,8 @@ public class User {
 		return fone;
 	}
 	
+	//setters
+	
 	public void setName(String name) {
 		this.name = name;
 	}
